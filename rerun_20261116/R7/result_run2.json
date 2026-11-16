@@ -1,0 +1,198 @@
+{
+ "full": {
+  "thr": 0.5,
+  "real_fpr": 15.0,
+  "ADM": 99.4,
+  "BigGAN": 99.6,
+  "GLIDE": 99.4,
+  "Midjourney": 86.6,
+  "SD15": 95.39999999999999,
+  "VQDM": 94.8,
+  "Wukong": 93.8,
+  "ece_all": 0.06132254860004678
+ },
+ "loo": {
+  "ADM": {
+   "fixed_0.5": {
+    "thr": 0.5,
+    "real_fpr": 21.74285714285714,
+    "ADM": 50.4,
+    "BigGAN": 99.4,
+    "GLIDE": 99.6,
+    "Midjourney": 86.4,
+    "SD15": 97.2,
+    "VQDM": 92.4,
+    "Wukong": 96.8,
+    "ece_all": 0.11217837929699037
+   },
+   "real_only_rethreshold": {
+    "thr": 0.7792358994483948,
+    "real_fpr": 15.0,
+    "ADM": 42.199999999999996,
+    "BigGAN": 98.6,
+    "GLIDE": 98.4,
+    "Midjourney": 81.0,
+    "SD15": 94.19999999999999,
+    "VQDM": 89.2,
+    "Wukong": 92.4,
+    "ece_all": 0.11217837929699037
+   }
+  },
+  "BigGAN": {
+   "fixed_0.5": {
+    "thr": 0.5,
+    "real_fpr": 11.457142857142857,
+    "ADM": 98.4,
+    "BigGAN": 59.0,
+    "GLIDE": 97.6,
+    "Midjourney": 77.60000000000001,
+    "SD15": 94.0,
+    "VQDM": 86.6,
+    "Wukong": 91.0,
+    "ece_all": 0.06895183638736073
+   },
+   "real_only_rethreshold": {
+    "thr": 0.3153531551361084,
+    "real_fpr": 15.0,
+    "ADM": 98.8,
+    "BigGAN": 65.4,
+    "GLIDE": 98.2,
+    "Midjourney": 83.39999999999999,
+    "SD15": 94.6,
+    "VQDM": 90.60000000000001,
+    "Wukong": 94.0,
+    "ece_all": 0.06895183638736073
+   }
+  },
+  "GLIDE": {
+   "fixed_0.5": {
+    "thr": 0.5,
+    "real_fpr": 7.457142857142856,
+    "ADM": 99.0,
+    "BigGAN": 97.6,
+    "GLIDE": 90.60000000000001,
+    "Midjourney": 66.2,
+    "SD15": 88.2,
+    "VQDM": 85.6,
+    "Wukong": 86.8,
+    "ece_all": 0.05201392177652038
+   },
+   "real_only_rethreshold": {
+    "thr": 0.11386867612600327,
+    "real_fpr": 15.0,
+    "ADM": 99.0,
+    "BigGAN": 99.4,
+    "GLIDE": 95.6,
+    "Midjourney": 81.6,
+    "SD15": 95.39999999999999,
+    "VQDM": 91.8,
+    "Wukong": 93.8,
+    "ece_all": 0.05201392177652038
+   }
+  },
+  "Midjourney": {
+   "fixed_0.5": {
+    "thr": 0.5,
+    "real_fpr": 3.742857142857143,
+    "ADM": 99.0,
+    "BigGAN": 95.8,
+    "GLIDE": 93.4,
+    "Midjourney": 17.8,
+    "SD15": 83.0,
+    "VQDM": 79.80000000000001,
+    "Wukong": 81.2,
+    "ece_all": 0.0954212474187703
+   },
+   "real_only_rethreshold": {
+    "thr": 0.018347596749663353,
+    "real_fpr": 15.0,
+    "ADM": 99.8,
+    "BigGAN": 99.6,
+    "GLIDE": 98.8,
+    "Midjourney": 44.2,
+    "SD15": 95.6,
+    "VQDM": 95.8,
+    "Wukong": 96.0,
+    "ece_all": 0.0954212474187703
+   }
+  },
+  "SD15": {
+   "fixed_0.5": {
+    "thr": 0.5,
+    "real_fpr": 4.3999999999999995,
+    "ADM": 99.2,
+    "BigGAN": 97.8,
+    "GLIDE": 98.8,
+    "Midjourney": 70.6,
+    "SD15": 76.2,
+    "VQDM": 77.4,
+    "Wukong": 80.0,
+    "ece_all": 0.060685665901218135
+   },
+   "real_only_rethreshold": {
+    "thr": 0.02916683815419674,
+    "real_fpr": 15.0,
+    "ADM": 99.6,
+    "BigGAN": 100.0,
+    "GLIDE": 99.6,
+    "Midjourney": 87.0,
+    "SD15": 93.2,
+    "VQDM": 92.2,
+    "Wukong": 94.8,
+    "ece_all": 0.060685665901218135
+   }
+  },
+  "VQDM": {
+   "fixed_0.5": {
+    "thr": 0.5,
+    "real_fpr": 6.771428571428571,
+    "ADM": 99.4,
+    "BigGAN": 99.6,
+    "GLIDE": 98.4,
+    "Midjourney": 73.6,
+    "SD15": 90.8,
+    "VQDM": 28.4,
+    "Wukong": 91.8,
+    "ece_all": 0.08212445331298347
+   },
+   "real_only_rethreshold": {
+    "thr": 0.07618267834186554,
+    "real_fpr": 15.0,
+    "ADM": 99.6,
+    "BigGAN": 100.0,
+    "GLIDE": 99.4,
+    "Midjourney": 87.4,
+    "SD15": 97.2,
+    "VQDM": 43.0,
+    "Wukong": 97.0,
+    "ece_all": 0.08212445331298347
+   }
+  },
+  "Wukong": {
+   "fixed_0.5": {
+    "thr": 0.5,
+    "real_fpr": 3.2857142857142856,
+    "ADM": 99.0,
+    "BigGAN": 98.6,
+    "GLIDE": 97.6,
+    "Midjourney": 63.800000000000004,
+    "SD15": 71.8,
+    "VQDM": 76.4,
+    "Wukong": 61.199999999999996,
+    "ece_all": 0.08259565658521442
+   },
+   "real_only_rethreshold": {
+    "thr": 0.019306624308228493,
+    "real_fpr": 15.0,
+    "ADM": 99.8,
+    "BigGAN": 99.8,
+    "GLIDE": 99.2,
+    "Midjourney": 88.4,
+    "SD15": 92.4,
+    "VQDM": 93.8,
+    "Wukong": 85.39999999999999,
+    "ece_all": 0.08259565658521442
+   }
+  }
+ }
+}

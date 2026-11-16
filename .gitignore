@@ -1,0 +1,40 @@
+# Weights and large arrays
+*.pth
+*.pt
+*.npz
+*.ckpt
+*.pdparams
+*.npy
+*.safetensors
+
+# Datasets (download separately)
+data_npy/
+data_raw/
+genimage_parquet/
+genimage_test/
+hf_models/
+*.parquet
+
+# Local run trees
+runs/
+repro_logs/
+rerun_local/
+
+# Python / virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+venv_paddle/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and keys (never commit)
+.env
+*.pem
+id_*
+*.key

@@ -1,0 +1,109 @@
+{
+ "ckpt": "<DATA_ROOT>/runs/round_01/detector.pth",
+ "n_eval": 7000,
+ "ratio": 0.15,
+ "steps": 10,
+ "alpha": "eps/steps, uniform random start",
+ "clamp": true,
+ "retained_frac": 0.08681441326530612,
+ "clean_bare": {
+  "ADM": 98.8,
+  "BigGAN": 99.4,
+  "GLIDE": 98.6,
+  "Midjourney": 80.2,
+  "SD15": 93.0,
+  "VQDM": 88.8,
+  "Wukong": 91.4,
+  "Real": 88.4,
+  "fake_all": 92.88571428571429,
+  "overall": 90.64285714285715
+ },
+ "clean_filtered": {
+  "ADM": 97.0,
+  "BigGAN": 100.0,
+  "GLIDE": 99.0,
+  "Midjourney": 95.6,
+  "SD15": 98.6,
+  "VQDM": 99.6,
+  "Wukong": 97.2,
+  "Real": 4.628571428571428,
+  "fake_all": 98.14285714285714,
+  "overall": 51.38571428571429
+ },
+ "eps=0.020": {
+  "bare_attacked": {
+   "ADM": 1.0,
+   "BigGAN": 0.6,
+   "GLIDE": 0.8,
+   "Midjourney": 1.2,
+   "SD15": 6.0,
+   "VQDM": 0.6,
+   "Wukong": 9.2,
+   "Real": 1.0857142857142856,
+   "fake_all": 2.7714285714285714,
+   "overall": 1.9285714285714284
+  },
+  "transfer": {
+   "ADM": 94.39999999999999,
+   "BigGAN": 99.0,
+   "GLIDE": 96.8,
+   "Midjourney": 92.80000000000001,
+   "SD15": 97.39999999999999,
+   "VQDM": 98.8,
+   "Wukong": 95.0,
+   "Real": 3.1142857142857143,
+   "fake_all": 96.31428571428572,
+   "overall": 49.714285714285715
+  },
+  "adaptive": {
+   "ADM": 8.200000000000001,
+   "BigGAN": 28.799999999999997,
+   "GLIDE": 22.0,
+   "Midjourney": 15.0,
+   "SD15": 23.599999999999998,
+   "VQDM": 35.6,
+   "Wukong": 21.2,
+   "Real": 0.0,
+   "fake_all": 22.057142857142857,
+   "overall": 11.028571428571428
+  }
+ },
+ "eps=0.050": {
+  "bare_attacked": {
+   "ADM": 0.0,
+   "BigGAN": 0.0,
+   "GLIDE": 0.0,
+   "Midjourney": 0.4,
+   "SD15": 0.6,
+   "VQDM": 0.0,
+   "Wukong": 1.4000000000000001,
+   "Real": 0.0,
+   "fake_all": 0.34285714285714286,
+   "overall": 0.17142857142857143
+  },
+  "transfer": {
+   "ADM": 93.0,
+   "BigGAN": 98.2,
+   "GLIDE": 94.19999999999999,
+   "Midjourney": 90.4,
+   "SD15": 95.8,
+   "VQDM": 97.8,
+   "Wukong": 92.2,
+   "Real": 2.257142857142857,
+   "fake_all": 94.51428571428572,
+   "overall": 48.385714285714286
+  },
+  "adaptive": {
+   "ADM": 0.0,
+   "BigGAN": 0.2,
+   "GLIDE": 0.2,
+   "Midjourney": 0.4,
+   "SD15": 0.4,
+   "VQDM": 1.2,
+   "Wukong": 1.6,
+   "Real": 0.0,
+   "fake_all": 0.5714285714285714,
+   "overall": 0.2857142857142857
+  }
+ }
+}

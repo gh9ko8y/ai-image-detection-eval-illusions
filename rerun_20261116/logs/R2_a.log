@@ -1,0 +1,72 @@
+logit shape (4, 2)
+batch 0
+batch 25
+batch 50
+batch 75
+batch 100
+batch 125
+batch 150
+batch 175
+batch 200
+batch 225
+batch 250
+batch 275
+batch 300
+batch 325
+batch 350
+batch 375
+batch 400
+batch 425
+batch 450
+batch 475
+batch 500
+batch 525
+batch 550
+batch 575
+batch 600
+batch 625
+batch 650
+batch 675
+batch 700
+batch 725
+batch 750
+batch 775
+batch 800
+batch 825
+batch 850
+batch 875
+batch 900
+batch 925
+batch 950
+batch 975
+batch 1000
+batch 1025
+batch 1050
+batch 1075
+batch 1100
+batch 1125
+batch 1150
+batch 1175
+batch 1200
+batch 1225
+batch 1250
+batch 1275
+batch 1300
+batch 1325
+batch 1350
+batch 1375
+clean {'fake_acc': 93.42857142857143, 'real_acc': 93.14285714285714, 'overall_acc': 93.28571428571428, 'auroc': 98.23387755102043, 'tpr1': 78.71428571428571}
+clean_filtered {'fake_acc': 88.42857142857142, 'real_acc': 36.285714285714285, 'overall_acc': 62.35714285714285, 'auroc': 74.12020408163265, 'tpr1': 18.571428571428573}
+whitebox_pgd {'fake_acc': 0.0, 'real_acc': 0.0, 'overall_acc': 0.0, 'auroc': 0.0, 'tpr1': 0.0}
+lowpass_transfer {'fake_acc': 64.85714285714286, 'real_acc': 28.142857142857142, 'overall_acc': 46.5, 'auroc': 46.406122448979595, 'tpr1': 5.857142857142858}
+lowpass_adaptive {'fake_acc': 0.0, 'real_acc': 0.0, 'overall_acc': 0.0, 'auroc': 0.0, 'tpr1': 0.0}
+full loo-done
+loo_ADM loo-done
+loo_BigGAN loo-done
+loo_GLIDE loo-done
+loo_Midjourney loo-done
+loo_SD15 loo-done
+loo_VQDM loo-done
+loo_Wukong loo-done
+UNIVFD_EVAL_V2_DONE
+EXIT 0

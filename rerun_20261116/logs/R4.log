@@ -1,0 +1,23 @@
+clean bare (port check, Paddle original 90.79): 90.78571428571429
+randomization all eps=0.02 {'transfer': 0.35714285714285715, 'naive_whitebox': 0.35714285714285715, 'adaptive': 0.2857142857142857}
+randomization all eps=0.05 {'transfer': 0.014285714285714285, 'naive_whitebox': 0.014285714285714285, 'adaptive': 0.014285714285714285}
+randomization all eps=0.10 {'transfer': 0.0, 'naive_whitebox': 0.0, 'adaptive': 0.0}
+randomization all no_attack 90.22857142857143
+bit_reduce_0.2 all eps=0.02 {'transfer': 7.685714285714286, 'naive_whitebox': 80.58571428571429, 'adaptive': 0.5714285714285714}
+bit_reduce_0.2 all eps=0.05 {'transfer': 0.18571428571428572, 'naive_whitebox': 80.58571428571429, 'adaptive': 0.04285714285714286}
+bit_reduce_0.2 all eps=0.10 {'transfer': 0.0, 'naive_whitebox': 80.58571428571429, 'adaptive': 0.0}
+bit_reduce_0.2 all no_attack 80.58571428571429
+jpeg_q50 all eps=0.02 {'transfer': 55.042857142857144, 'naive_whitebox': 74.12857142857143, 'adaptive': 22.428571428571427}
+jpeg_q50 all eps=0.05 {'transfer': 46.24285714285714, 'naive_whitebox': 74.12857142857143, 'adaptive': 3.057142857142857}
+jpeg_q50 all eps=0.10 {'transfer': 23.685714285714287, 'naive_whitebox': 74.12857142857143, 'adaptive': 0.08571428571428572}
+jpeg_q50 all no_attack 74.12857142857143
+jpeg_q50 first2000 eps=0.02 {'transfer': 55.15, 'naive_whitebox': 78.1, 'adaptive': 22.5}
+jpeg_q50 first2000 eps=0.05 {'transfer': 45.85, 'naive_whitebox': 78.1, 'adaptive': 2.85}
+jpeg_q50 first2000 eps=0.10 {'transfer': 24.0, 'naive_whitebox': 78.1, 'adaptive': 0.1}
+jpeg_q50 first2000 no_attack 78.1
+lowpass_0.15 all eps=0.02 {'transfer': 48.74285714285714, 'naive_whitebox': 3.4714285714285715, 'adaptive': 3.4714285714285715}
+lowpass_0.15 all eps=0.05 {'transfer': 46.52857142857143, 'naive_whitebox': 0.17142857142857143, 'adaptive': 0.17142857142857143}
+lowpass_0.15 all eps=0.10 {'transfer': 46.27142857142857, 'naive_whitebox': 0.0, 'adaptive': 0.0}
+lowpass_0.15 all no_attack 50.6
+R4_TORCH_PORT_DONE
+EXIT 0

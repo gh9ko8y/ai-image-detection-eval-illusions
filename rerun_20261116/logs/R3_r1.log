@@ -1,0 +1,7 @@
+clean bare {'ADM': 98.8, 'BigGAN': 99.4, 'GLIDE': 98.6, 'Midjourney': 80.2, 'SD15': 93.0, 'VQDM': 88.8, 'Wukong': 91.4, 'Real': 88.4, 'fake_all': 92.88571428571429, 'overall': 90.64285714285715}
+clean filtered {'ADM': 97.0, 'BigGAN': 100.0, 'GLIDE': 99.0, 'Midjourney': 95.6, 'SD15': 98.6, 'VQDM': 99.6, 'Wukong': 97.2, 'Real': 4.628571428571428, 'fake_all': 98.14285714285714, 'overall': 51.38571428571429}
+eps=0.020 {'bare_attacked': 1.7999999999999998, 'transfer': 49.7, 'adaptive': 10.914285714285715} 90s
+eps=0.050 {'bare_attacked': 0.14285714285714285, 'transfer': 48.25714285714286, 'adaptive': 0.2714285714285714} 164s
+eps=0.100 {'bare_attacked': 0.014285714285714287, 'transfer': 46.9, 'adaptive': 0.04285714285714286} 236s
+LOWPASS_V2_DONE
+EXIT 0

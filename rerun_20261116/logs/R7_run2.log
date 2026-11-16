@@ -1,0 +1,9 @@
+ADM Δacc (fixed→rethr) per class: {'ADM': (-49.0, -57.2), 'BigGAN': (-0.2, -1.0), 'GLIDE': (0.2, -1.0), 'Midjourney': (-0.2, -5.6), 'SD15': (1.8, -1.2), 'VQDM': (-2.4, -5.6), 'Wukong': (3.0, -1.4)}
+BigGAN Δacc (fixed→rethr) per class: {'ADM': (-1.0, -0.6), 'BigGAN': (-40.6, -34.2), 'GLIDE': (-1.8, -1.2), 'Midjourney': (-9.0, -3.2), 'SD15': (-1.4, -0.8), 'VQDM': (-8.2, -4.2), 'Wukong': (-2.8, 0.2)}
+GLIDE Δacc (fixed→rethr) per class: {'ADM': (-0.4, -0.4), 'BigGAN': (-2.0, -0.2), 'GLIDE': (-8.8, -3.8), 'Midjourney': (-20.4, -5.0), 'SD15': (-7.2, 0.0), 'VQDM': (-9.2, -3.0), 'Wukong': (-7.0, 0.0)}
+Midjourney Δacc (fixed→rethr) per class: {'ADM': (-0.4, 0.4), 'BigGAN': (-3.8, 0.0), 'GLIDE': (-6.0, -0.6), 'Midjourney': (-68.8, -42.4), 'SD15': (-12.4, 0.2), 'VQDM': (-15.0, 1.0), 'Wukong': (-12.6, 2.2)}
+SD15 Δacc (fixed→rethr) per class: {'ADM': (-0.2, 0.2), 'BigGAN': (-1.8, 0.4), 'GLIDE': (-0.6, 0.2), 'Midjourney': (-16.0, 0.4), 'SD15': (-19.2, -2.2), 'VQDM': (-17.4, -2.6), 'Wukong': (-13.8, 1.0)}
+VQDM Δacc (fixed→rethr) per class: {'ADM': (0.0, 0.2), 'BigGAN': (0.0, 0.4), 'GLIDE': (-1.0, 0.0), 'Midjourney': (-13.0, 0.8), 'SD15': (-4.6, 1.8), 'VQDM': (-66.4, -51.8), 'Wukong': (-2.0, 3.2)}
+Wukong Δacc (fixed→rethr) per class: {'ADM': (-0.4, 0.4), 'BigGAN': (-1.0, 0.2), 'GLIDE': (-1.8, -0.2), 'Midjourney': (-22.8, 1.8), 'SD15': (-23.6, -3.0), 'VQDM': (-18.4, -1.0), 'Wukong': (-32.6, -8.4)}
+RETHRESHOLD_DONE
+EXIT 0

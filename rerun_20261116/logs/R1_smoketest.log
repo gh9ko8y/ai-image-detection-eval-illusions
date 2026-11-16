@@ -1,0 +1,21 @@
+radial_profile self-test OK (DC removed, bin index == spatial frequency)
+spec ADM (300, 111)
+spec BigGAN (300, 111)
+spec GLIDE (300, 111)
+spec Midjourney (300, 111)
+spec SD15 (300, 111)
+spec VQDM (300, 111)
+spec Wukong (300, 111)
+spec Real (300, 111)
+                ADM   BigGAN    GLIDE  Midjourney     SD15     VQDM   Wukong     Real
+ADM         1.00000 -0.01668  0.06782     0.06049  0.06423 -0.28253  0.13608 -0.01710
+BigGAN     -0.01668  1.00000  0.98536     0.93468  0.90552  0.78639  0.89803  0.88273
+GLIDE       0.06782  0.98536  1.00000     0.95148  0.91907  0.76531  0.91906  0.89023
+Midjourney  0.06049  0.93468  0.95148     1.00000  0.99200  0.83771  0.98843  0.97865
+SD15        0.06423  0.90552  0.91907     0.99200  1.00000  0.84204  0.99424  0.98410
+VQDM       -0.28253  0.78639  0.76531     0.83771  0.84204  1.00000  0.80042  0.90427
+Wukong      0.13608  0.89803  0.91906     0.98843  0.99424  0.80042  1.00000  0.96971
+Real       -0.01710  0.88273  0.89023     0.97865  0.98410  0.90427  0.96971  1.00000
+within-class q05 (pooled) = 0.860887
+pairs below all permutations: 20
+SPEC_RESID_FIXED_DONE

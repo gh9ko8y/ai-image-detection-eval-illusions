@@ -1,0 +1,48 @@
+logit shape (4, 2)
+batch 0
+batch 25
+batch 50
+batch 75
+batch 100
+batch 125
+batch 150
+batch 175
+batch 200
+batch 225
+batch 250
+batch 275
+batch 300
+batch 325
+batch 350
+batch 375
+batch 400
+batch 425
+batch 450
+batch 475
+batch 500
+batch 525
+batch 550
+batch 575
+batch 600
+batch 625
+batch 650
+batch 675
+batch 700
+batch 725
+batch 750
+batch 775
+clean {'fake_acc': 93.42857142857143, 'real_acc': 95.0, 'overall_acc': 94.21428571428572, 'auroc': 98.53285714285714, 'tpr1': 81.14285714285714}
+clean_filtered {'fake_acc': 88.42857142857142, 'real_acc': 39.0, 'overall_acc': 63.71428571428571, 'auroc': 76.49571428571429, 'tpr1': 18.571428571428573}
+whitebox_pgd {'fake_acc': 0.0, 'real_acc': 0.0, 'overall_acc': 0.0, 'auroc': 0.0, 'tpr1': 0.0}
+lowpass_transfer {'fake_acc': 66.14285714285715, 'real_acc': 33.0, 'overall_acc': 49.57142857142858, 'auroc': 50.554285714285705, 'tpr1': 6.2857142857142865}
+lowpass_adaptive {'fake_acc': 0.0, 'real_acc': 0.0, 'overall_acc': 0.0, 'auroc': 0.0, 'tpr1': 0.0}
+full loo-done
+loo_ADM loo-done
+loo_BigGAN loo-done
+loo_GLIDE loo-done
+loo_Midjourney loo-done
+loo_SD15 loo-done
+loo_VQDM loo-done
+loo_Wukong loo-done
+UNIVFD_EVAL_V2_DONE
+EXIT 0

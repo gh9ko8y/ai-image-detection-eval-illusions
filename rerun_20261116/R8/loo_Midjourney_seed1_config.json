@@ -1,0 +1,9 @@
+{
+ "out": "<DATA_ROOT>/rerun_20261116/R8/loo_Midjourney_seed1",
+ "epochs": 3,
+ "bs": 64,
+ "lr": 0.0001,
+ "exclude": "Midjourney",
+ "seed": 1,
+ "train_n": 26000
+}

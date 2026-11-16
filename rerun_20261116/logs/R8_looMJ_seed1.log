@@ -1,0 +1,74 @@
+<DATA_ROOT>/rerun_20261116/code/pytorch_chain/train_detector_v2.py:192: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  run += float(loss)
+device: cuda | prep: <DATA_ROOT>/data_npy
+X_val (7000, 224, 224, 3) | X_train 文件 4.21 GB
+留出 Midjourney: 训练集 28000 -> 26000
+训练: 26000 张, 407 步/epoch, 3 epoch
+  ep1   50/407  loss=0.5049  train_acc=74.41%  7s
+  ep1  100/407  loss=0.4250  train_acc=79.72%  13s
+  ep1  150/407  loss=0.3911  train_acc=81.94%  19s
+  ep1  200/407  loss=0.3600  train_acc=83.91%  26s
+  ep1  250/407  loss=0.3358  train_acc=85.15%  32s
+  ep1  300/407  loss=0.3193  train_acc=85.96%  38s
+  ep1  350/407  loss=0.3070  train_acc=86.51%  45s
+  ep1  400/407  loss=0.2955  train_acc=87.05%  51s
+== epoch 1 完成  loss=0.2939  train_acc=87.11%  用时 52s
+
+--- 评估 epoch 1 后 ---
+整体准确率: 88.14%  (n=7000)
+生成器                 n        本次%        历史%
+ADM               500      99.00      96.60  Δ=+2.40
+BigGAN            500      96.00      98.80  Δ=-2.80
+GLIDE             500      97.80      98.60  Δ=-0.80
+Midjourney        500      35.40      64.80  Δ=-29.40
+SD15              500      89.00      83.20  Δ=+5.80
+VQDM              500      85.40      78.20  Δ=+7.20
+Wukong            500      89.40      78.00  Δ=+11.40
+Real             3500      91.71      94.71  Δ=-3.00
+  ep2   50/407  loss=0.0975  train_acc=96.66%  72s
+  ep2  100/407  loss=0.1044  train_acc=96.11%  78s
+  ep2  150/407  loss=0.1070  train_acc=95.97%  85s
+  ep2  200/407  loss=0.1075  train_acc=95.97%  91s
+  ep2  250/407  loss=0.1107  train_acc=95.78%  98s
+  ep2  300/407  loss=0.1131  train_acc=95.67%  104s
+  ep2  350/407  loss=0.1156  train_acc=95.58%  111s
+  ep2  400/407  loss=0.1164  train_acc=95.55%  117s
+== epoch 2 完成  loss=0.1167  train_acc=95.55%  用时 118s
+
+--- 评估 epoch 2 后 ---
+整体准确率: 88.24%  (n=7000)
+生成器                 n        本次%        历史%
+ADM               500      99.40      96.60  Δ=+2.80
+BigGAN            500      98.00      98.80  Δ=-0.80
+GLIDE             500      96.80      98.60  Δ=-1.80
+Midjourney        500      37.60      64.80  Δ=-27.20
+SD15              500      91.80      83.20  Δ=+8.60
+VQDM              500      90.80      78.20  Δ=+12.60
+Wukong            500      90.60      78.00  Δ=+12.60
+Real             3500      90.06      94.71  Δ=-4.65
+  ep3   50/407  loss=0.0593  train_acc=97.97%  138s
+  ep3  100/407  loss=0.0555  train_acc=98.16%  144s
+  ep3  150/407  loss=0.0565  train_acc=98.12%  151s
+  ep3  200/407  loss=0.0532  train_acc=98.18%  158s
+  ep3  250/407  loss=0.0508  train_acc=98.25%  164s
+  ep3  300/407  loss=0.0527  train_acc=98.19%  171s
+  ep3  350/407  loss=0.0548  train_acc=98.05%  177s
+  ep3  400/407  loss=0.0555  train_acc=98.03%  184s
+== epoch 3 完成  loss=0.0566  train_acc=98.00%  用时 185s
+
+--- 评估 epoch 3 后 ---
+整体准确率: 88.47%  (n=7000)
+生成器                 n        本次%        历史%
+ADM               500      99.20      96.60  Δ=+2.60
+BigGAN            500     100.00      98.80  Δ=+1.20
+GLIDE             500      97.80      98.60  Δ=-0.80
+Midjourney        500      38.20      64.80  Δ=-26.60
+SD15              500      92.60      83.20  Δ=+9.40
+VQDM              500      88.20      78.20  Δ=+10.00
+Wukong            500      93.00      78.00  Δ=+15.00
+Real             3500      89.94      94.71  Δ=-4.77
+
+已保存: <DATA_ROOT>/rerun_20261116/R8/loo_Midjourney_seed1.pth
+TRAIN_DONE
+EXIT 0

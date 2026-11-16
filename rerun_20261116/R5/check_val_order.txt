@@ -1,0 +1,4 @@
+全部 7000： {'Real': 3500, 'ADM': 500, 'BigGAN': 500, 'GLIDE': 500, 'Midjourney': 500, 'SD15': 500, 'VQDM': 500, 'Wukong': 500}
+前 2000（旧 JPEG 子集）： {'Real': 1000, 'ADM': 143, 'BigGAN': 143, 'GLIDE': 143, 'Midjourney': 143, 'SD15': 143, 'VQDM': 143, 'Wukong': 142}
+前 2000 中真图占比：50.0%
+n_runs 7000 first runs [('Real', 1), ('ADM', 1), ('Real', 1), ('BigGAN', 1), ('Real', 1), ('GLIDE', 1), ('Real', 1), ('Midjourney', 1), ('Real', 1), ('SD15', 1), ('Real', 1), ('VQDM', 1)]
