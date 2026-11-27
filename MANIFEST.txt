@@ -1,156 +1,589 @@
-SHA-256                          size(bytes)  path
-c3aac22cfa527363fc0ee15bc1dfc93000acc9e1086488df2178a3563747202a          86  .gitattributes
-2cc86a859b839ef524474344e8c5ca57180898e745c803ad79f435de21fb985c         419  .gitignore
-ff54d3fa03d2de1304d917c97984c34246f477b9e9bac0acdc85a43ab5af0cb3        1068  LICENSE
-72264a0ca51c14629c4534041d47e63b25a8766257cbf65365ee2453038645d6       15333  README.md
-e83a3306d67d841d22507d2e8f84efcd644d67a9449332df98d8b45c76d0a5ef         682  code/analysis/check_val_order.py
-a4c3ddf9b37e59fc6c5d1c3c44e0563edcd67dcd72710e89110bf99971036ff7        4583  code/analysis/eval_auroc.py
-3fb6bf6f518eacbe2777b63522bf55df4d5daa971907bf9421d9d1bd3ce812ea        2787  code/analysis/fix_clip_auroc.py
-2b5d9636d387a7fab2696b6d8d961d15aee215806027d320cba75431ec50a276        3656  code/analysis/rethreshold_calibration.py
-db7345e510bbcefb3845aa23bcd0a3970d42fd420be6f5b6a9c0f9d895dffd20        3955  code/figures/make_paper_figs.py
-f368063e2838a7de20d538ad7742c6f7000b12b0e258261652b699e0dfca52a4        2395  code/figures/make_pipeline_fig.py
-d75b1908361d3c5949b3f472280e998160a71a26acd4e43354b6c2a497a7923d        2641  code/figures/make_pipeline_fig_v2.py
-abba2fb028496f461de1775a38faa799b72e89839b978ccd6d115ac9dbdb7016        3674  code/figures/redraw_fig1_v4.py
-e7c51f2791c93c870a43508132497981fce8d668e5fb51cc34665e99f00a2e17        2071  code/figures/redraw_fig2.py
-e10879d7315b49a5672a46bdca54640a90947df6b4171ebf2166e3cbe2e2ec89        2267  code/figures/redraw_fig2_v2.py
-9adfa2a2e27306c08cd4e34e9d8f51a6667d6a873621e316eed2683553a3c7e5        2576  code/figures/redraw_fig2_v3.py
-247251c565f084abfb893aadd7225841c49a91dd0d0ea2d1291c61c5d502bc16        2340  code/figures/redraw_fig4_v2.py
-cd951c73fef148632a208dc73e5951f63c49e96c61adc14f9a2693ac9e3a28a0        2758  code/figures/redraw_fig4_v3.py
-fc80bb3e9f13daccd1067acb77574684c19481a07681561f99363abf1f286816        5346  code/paddle_chain/pad_common.py
-dfd5e1ce279f8efcfa64d13814c3b2abe31f4e64d0cacc976c155ba5cbb93e96        9309  code/paddle_chain/pad_defenses_torch_port.py
-ecfb44fc42c3a7eb1aae6ebc5105d53ee2dc4d19fe5e62571d5fd0512f7fa824        2371  code/paddle_chain/pad_exp10_noMJ.py
-f45e6e83079a3a55416be1c6359210133ab8616b16a3c9e8ef3fbdfbfd8218d7        4424  code/paddle_chain/pad_exp1_mnist.py
-a6bbc1b0ad179ec62d7982d15433e71890b94e0728aaf1d01f22760dcd3a119a        2373  code/paddle_chain/pad_exp2_train.py
-3fbbd1eddd8fce6f4c43f8bee56ac3f2c1b1ca4c420667e1b8f404510d8f9705        1380  code/paddle_chain/pad_exp3_attacks.py
-7df2e8833f92704c70ca1ff8031204eae077de549e1377ecc85133e0c8823dee        2938  code/paddle_chain/pad_exp4_at.py
-606a1eeb621ba3cd7570da88e954973bf6ef73f576a9ff48352f4566c6091f82        5801  code/paddle_chain/pad_exp5678_defenses.py
-af61c0a996cd92d5df459f3008e98b7158c99f0e1244c48fd102b4743dccb6cf        5709  code/paddle_chain/pad_exp5678_defenses_v2.py
-19794efdea5637b5751b9ccf8daaca40c847d0aa1220a44e644bfd8546cada16        3016  code/paddle_chain/prep_dataset.py
-02bc7da8cebcb71179d1eec8f6f41ab2d0b46907184896ecfbc096564d4771a3        3225  code/paddle_chain/prep_from_parquet.py
-1604f0bff86d4c854899a189061b06a58697c6d84ae26114d8790d8921b63559        1360  code/paddle_chain/run_paddle_chain.sh
-d3821919aad4607d75568e051bdb3c2a6bb1729e53c2abfb915e917bf59916b0        2605  code/pipelines/auroc_runs_r2_r3.py
-46b8e5ec6812b0cf5d3f7295f0599ed2cc2fd38a48c664b70f05756cb311d3a2        6877  code/pipelines/genimage_test_zero_shot.py
-f0ce6eb64a057a0ab70d0fd0d685a0fd73d0040e0986209375b0c42e6bad757e        8232  code/pipelines/genimage_test_zero_shot_v4.py
-bd38ec788d89035fa94ba01df84939204ae9b9a50b3d1c54ec25935a2df44a90        3331  code/pipelines/make_qualitative_fig.py
-a43ce6e2ec946b101c3744138a1775e1eae5de9751eb54beae7ac1442a434af2        3356  code/pipelines/redraw_fig1_fig4.py
-8d77855ef2435ccd1ab38b2915c088ec4b503b18afe12edabf69557ebe0bc8d1        3823  code/pipelines/sdxl_eval_nine_models.py
-2ab078e4cee7523d8e4a598aac6f5e93faed74c6d743ebbcad00121807ab57a2        3972  code/pipelines/sdxl_eval_nine_models_v2.py
-8c2fd6e637b1969e72722150fce1d9dc9fcc67e272cd87e65bb382311d160636        2118  code/pipelines/sdxl_generate_500.py
-b75da1fabd221bf4a81d5c9b4e92b21b6d9e5f26f747faf6d399c96550ea8db4        2574  code/pipelines/sdxl_generate_500_v2.py
-8171c8cd75616be4eb093b4efcfc2afde7c68ec78a3d14728ab7aa769467a097        8712  code/pipelines/univfd_all_stages.py
-c1d47ea920714b92e8c1db07481c36870b7460df491156fb25ad158cbf362341        7025  code/pipelines/univfd_stage3_fixed.py
-8a77a9bba28d8fdfdf45f0d02dcdebadad8fdca0b4e9cd65bf3329bd70279386       10196  code/pipelines/univfd_stage3_v2.py
-84d1d04b07b05b02c979d8d7b81ffff910886ac5c86cbe0d150877819de26bd1        4329  code/pytorch_chain/at_main.py
-ff52467d599ebefd87793c02482d329eae65e716b3457381dc018bd70ddafbd5        2450  code/pytorch_chain/autoattack_resnet.py
-03867136e2ec163bc85b0b82d7763ce02dd8c9ec67f7fcbbe6c5cda421d2a7c0        2187  code/pytorch_chain/bb02_main.py
-e232d39e70d03a4fae0da2609b6f28fc53b1431df4dfc88ff3b6189d7bc0a2c1        1169  code/pytorch_chain/bb_clip_models.py
-2d2d7ed361a98fd660f398df5dc3b355e3d8599b99a5d6aab8b2e7b271fabbfc        2220  code/pytorch_chain/bb_main.py
-2eddb445fc2d3df084015b0446122f880740405ed0f47005e3e7d17c66027868        1123  code/pytorch_chain/bb_models.py
-e930f651fb650069d657ccafe110e6844ab73083b4826c90e6078b5f5da563ac        3523  code/pytorch_chain/bb_train_core.py
-e4b235b3edbe7f88e31d2bcdae18a108f83075c56a87438c25e782d7f85709d4        3562  code/pytorch_chain/loo_eval.py
-031c2e4fb9bff12c22f9c25aca1d57cb886d010dc1cf696a2b633486fdda03e6        9511  code/pytorch_chain/lowpass_adaptive_torch.py
-189571bceae7eb83cff6729d36b1d92fa21f418600ef094655e55b5f4e6b473a        7788  code/pytorch_chain/lowpass_round.py
-7f848f6bbae1cccb249d3def2825216b650e38aa4365b0ab0b55880949018313        8319  code/pytorch_chain/lowpass_round_v2.py
-a97012e8574d2cdf6e3468264b9e54ea5f48f52c568979c37385348d63449fa9        1164  code/pytorch_chain/run_at_seq.sh
-cf28d0c0dabdf7c5e4ce2c1c8c3d2806b5fb91bbca095b11c943e19373e8fb78        1386  code/pytorch_chain/run_bb2_seq.sh
-471b4a2a6f0a0ab4ea264841a806c2b74914b26b58dbb10962cc80f343ed3e62        1309  code/pytorch_chain/run_bb_seq.sh
-5df510840f1a944513e71c0bcd4b06e03a65a84b725c7fc32f134f9bb2585973         995  code/pytorch_chain/run_bb_seq3.sh
-4c14ccb95a8acccd1b35be998872d95c57a8abbe891a3feb1e5f4148b6a86883        5367  code/pytorch_chain/run_full_repro.sh
-cc1dcc7155c448710aef311282a3169c65409cb3c5cb0d76add438e6ab58fcd7        2402  code/pytorch_chain/run_loo_seq.sh
-404c72c1eba83f6ae81221562487492c7ea9b61fc191ca546f7044b5ae005c69        1813  code/pytorch_chain/run_loo_seq2.sh
-2ef19e324eed5b7fcdf7d04990a7736dfbd11c09b4977d01e11d4d59a8096f1f        6910  code/pytorch_chain/run_round.py
-907e71788860c19f072516cc928f9d7cd0fd73138980fb095ad4d7d370323e8a        2248  code/pytorch_chain/run_rounds_seq.sh
-79b3864c109a10f5e0e5913fee82e253ef3625faf1a85c258bc58692486287d6        4608  code/pytorch_chain/spec_fp.py
-a35f62cf8bd19d9e5d3e5a6dd452aef06d53c2a5250b77bf15f021009f3c447d        5574  code/pytorch_chain/spec_perm_holm.py
-aef4fa4ecd9f8ca684eebe973f1155b765be8d6014d9419c804a10c9eaeb5129        8081  code/pytorch_chain/spec_resid_fixed.py
-177fee72fb76609d7567a6370213453eb87c6a0481a013376017dbc2b57f2880        8088  code/pytorch_chain/train_detector.py
-ca0fd5cf4bad2d1d24472716de5d6dfe0177cf6fc690f65ba0f2f63299c6e528        8768  code/pytorch_chain/train_detector_v2.py
-caa4802383ae45c09bac3cea953cb64940a1250b699840a18de11cf763d5f91b      208430  data/figures/fig1_loo_heatmap.png
-d67131912ce52e13c057ef22f439bf7b8c71c3c16a13e0c279d3a61227543efd      242569  data/figures/fig2_spectral_corr.png
-e8ef5788636b9dc274d76301f4fdb22b620f5926e918446769a8ad46656674e0      109141  data/figures/fig3_threat_model.png
-a5e0256e5b88229ba1928f2b2a71a079a56af4411a1976ccab19b6a9e6ba7c86      122967  data/figures/fig4_pipeline.png
-66f2601a29caaace60a5a309bfa434ba743bdab695b6fa6ab77b61473b5c2e80      670424  data/figures/fig5_qualitative.png
-85a3cf0416b6cfa423081906eeb51624f6b3632b8d07144d86e824a71996f176        7158  data/results_json_csv/auroc_result.csv
-a340f0f936cde9c66de953ef6af2be9eace58be5410cfcd7e35425d2de057766        3105  data/results_json_csv/genimage_result.json
-a788a0bff80c9e05835ec3b98f3ae96aaf8de0954741a92b52bf94af53d547aa       40229  data/results_json_csv/null_stats.csv
-37429eba2aa775edcfff48173810b872768662d18f6c8a2aa8b7960ffbdb03c4        2844  data/results_json_csv/perm_holm_result.json
-92285c1887cf54a7d505c5f29acffd9b30d082b81f43f0c4d5ad5070f17ae9ca        1305  data/results_json_csv/perm_holm_table.csv
-70ecfd90ad7d6380e46d3bf1a99788741a74ae1b55334f3f930724259456e790        1244  data/results_json_csv/resid_corr.csv
-011716ed88edf810a9bdbed30a671459aa0b36f8b7bd8ae24f4925419c77a3c7        1351  data/results_json_csv/sdxl_result.json
-7c782389f7779e06ae814243aa7932e6e4eeb12aea8c5d0a59b1e2dfc7fcd24e        6118  data/results_json_csv/univfd_eval.json
-02d59067ae8b0ad2d24a6f069fc45204ab7aea85f3966b1464e8e5055ab3cb77       40245  rerun_20261116/R1/null_stats.csv
-a93d9edf6afae138b3ca5473ccb460aad4d24f78df21f3ac2a16769577a1bca6        5288  rerun_20261116/R1/perm_holm_result.json
-dfd3a0465540a024cff1eb7f312c566c7200b99322b36b7e96008ff6bfcb921d        2299  rerun_20261116/R1/perm_holm_table.csv
-9da9f1b387733bfb3902bcb27dc98b78570374e518b8de2cbb5837c2067fd36c       16737  rerun_20261116/R1/radial_profiles.csv
-0760efd6d4ae219560f9a20d1d3dd8e88304a5abdc60c867f194a0216ccc7156        1221  rerun_20261116/R1/raw_corr.csv
-40d52de791cb611597e1e1176d024154b3c34c032d38a9f656e09bb882377fe7        1231  rerun_20261116/R1/resid_corr.csv
-0a3b646fdb6dd0cd4459c678853c9d74541ae8a070567033606ac428f6ac9104        1247  rerun_20261116/R1/resid_corr_matched150.csv
-194208c6458bd264214437987a70002d08c65cd03959069a84b89be2ce23b0fe        2247  rerun_20261116/R11/lowpass_clamp_r1/lowpass_v2.json
-ec2307dffe7299fb19e7caf4bd6d9cac87d8f0448204a8d1dc7e52f9beb77aa5        6409  rerun_20261116/R2/eval_v2_eps002_r1_real700.json
-b0abd581d2767e3f9f7273bf60350948957b71bc291bcb31b9f3a74ff9cff130        6422  rerun_20261116/R2/eval_v2_eps005_r1_real100.json
-02d244e8981306809c2c36337c2c4a5bd5e188789d78831d3a7ed8795f511ae7        6450  rerun_20261116/R2/eval_v2_eps005_r3_real700.json
-e3312ea031bef81ebbb79fa5add4b59dc36d8d0931e74d39c86d1eb75de42052        2946  rerun_20261116/R3/r1/lowpass_v2.json
-2a0eaf7e477e98d746936cb87f82eac3282dbf36f36018912f28e6e5075b1aa9        2936  rerun_20261116/R3/r2/lowpass_v2.json
-71f8ec05696fd066e05c90723865b29d0a35dddb80f09db47252d737a4417406        3009  rerun_20261116/R3/r3/lowpass_v2.json
-dcaa4263e6017d9921f04f84f9f87f49d6e49def26644992a10a6c41c6d3e75b        2443  rerun_20261116/R4/defenses_torch_port.json
-2a9c3721cabb108e29bfeffc00833e05245bce9ae33b2b042d0f70dc1896839f         501  rerun_20261116/R5/check_val_order.txt
-f8739592e3fbef02cc093643b690a894c2b746526914c8d68007dbaf7cfde466       10400  rerun_20261116/R6/result_v4.json
-e3250146f778cb79b0200078f6696e8b8ecec96a2e357e0e1980d4d789c156e6        4275  rerun_20261116/R7/result_run1.json
-d80e3dccbffadbe25354bd825faa1ae23051e317af9d052ff6e94d524cf717a6        4054  rerun_20261116/R7/result_run2.json
-526b06d4c27db4e7f10aa1633758a7231b810c0d097d1669d7fa7dc60db7748d         146  rerun_20261116/R8/full_det42_a_config.json
-65d2bed517e9138d59bb1882d3fae09c0526ffb880a362c383dfab8a645168e3         146  rerun_20261116/R8/full_det42_b_config.json
-3f096db401ebfc92c7fe9850c2cfc61b47c1f60477be5b2c1e15de9d941c1968         143  rerun_20261116/R8/full_seed0_config.json
-764a2bf8d0d5e772606f7f2eeb493b23d630b39fee9c3f2aa9b074cada67b987         143  rerun_20261116/R8/full_seed1_config.json
-0ac534178625a8b2563d578be2fd02f243b9ee2f985bb16b26d3eae47ee64801         143  rerun_20261116/R8/full_seed2_config.json
-154dd4492e4a4019d1d5f5677f7cbe4127b5561d288ab6e437ba4931b61e09e7         161  rerun_20261116/R8/loo_Midjourney_seed0_config.json
-2c54966c6d35674c1278e390d660c4369213c5b59d3dc27db682e8a7eb7c50f9         161  rerun_20261116/R8/loo_Midjourney_seed1_config.json
-e9fcd88644fff887dc836ae1af4946267825cb0f58c6c2d915e3a919d8ec9319         161  rerun_20261116/R8/loo_Midjourney_seed2_config.json
-caa4802383ae45c09bac3cea953cb64940a1250b699840a18de11cf763d5f91b      208430  rerun_20261116/figures/fig1_loo_heatmap.png
-c4c2291f01573ef35b5bb5e0f9daed088878d6cfd4e85bd89b4ada00f66c8cd4      223964  rerun_20261116/figures/fig2_spectral_corr.png
-5dc93cb1d63f70c16d97b44a090c499b42ecec54d5215ce970b67c82cc9a7b56      119471  rerun_20261116/figures/fig3_threat_model.png
-772868a39b6e9c1642cd3f2bd57c7d6ab12481b97a2e9633cc576e51b564c74e      146514  rerun_20261116/figures/fig4_pipeline.png
-66f2601a29caaace60a5a309bfa434ba743bdab695b6fa6ab77b61473b5c2e80      670424  rerun_20261116/figures/fig5_qualitative.png
-4ff05c0b60200de703f6cb04ce0cfaef31b566a8b598b669132b43905e2d7f19        1209  rerun_20261116/logs/R1.log
-8ed5444d3099b1b3b60dc66c7f7ae0aa15535e873b90a1a70e9ef5f073d4f83b         666  rerun_20261116/logs/R11_lowpass_clamp_r1.log
-d638dfe6e3991491a0105eb8f29c838a567d798a2e3bc14cf99c0f2d1daa9ef7        1117  rerun_20261116/logs/R1_smoketest.log
-9f2684fe10f77d484d376bc50529944921a12234b5f760e994e4006e2adf5baa        1446  rerun_20261116/logs/R2_a.log
-28b28f61269f92b024263de6b806f5caa9ff528ba757cedc54b5ce535f968910        1163  rerun_20261116/logs/R2_b.log
-de98f9cfc587754c48dfdfa2530c21435b5419b434432eb5d63a66a8bb8f0708        1419  rerun_20261116/logs/R2_c.log
-132c92b26cfbd9f947cf29e37ba6ddd8104e0a3c27735101a9da01ce56637cd5         756  rerun_20261116/logs/R3_r1.log
-710659b6970e3fd1e9f0dbc7aa11d1e214f5dcd9ef45829f011a70f56f0c2605         784  rerun_20261116/logs/R3_r2.log
-ec180973209e10ca51782285a8bbd76bcb417881e109d707d3a163e54ee72a0f         796  rerun_20261116/logs/R3_r3.log
-748ebacaee2dc23cc181067353589da96f59a7ed461d5dbb65e4ee1900308591        2001  rerun_20261116/logs/R4.log
-e50c2bbf32f03ced5eb007ad7194bb1795849669bbc919fdc49eeb7225332aa6        8807  rerun_20261116/logs/R6.log
-789b78addb5a6870aaa93a043c21f3f2a3a5532a7ccf42ca367fb06d6334740e        1427  rerun_20261116/logs/R7_run1.log
-258778b4cbb7587f7f2fab5eb3558fd37eddd7c8a5c6ce534109226b871a1553        1449  rerun_20261116/logs/R7_run2.log
-8a725666481e0a4b7efb5f79c2fce25cf4a6571c944278b9bd089936d0af8f7a        3636  rerun_20261116/logs/R8_full_det42_a.log
-dfb7da9ebd1691e92a63edacdd30fa61b27058b0ad8265a72c4e291295529237        3635  rerun_20261116/logs/R8_full_det42_b.log
-5f53cf2dbe8f5816cf22190bf0b3601fe660ac23c1197a279794ddde0a92f844        3644  rerun_20261116/logs/R8_full_seed0.log
-7335446a84c33e7107b8fea4698909be9b65cf71df27786e1523086628481461        3636  rerun_20261116/logs/R8_full_seed1.log
-3cf2ff569de2c4162d19f24fda29c0bf6222aaf5fcd334c377013d8c79b67439        3636  rerun_20261116/logs/R8_full_seed2.log
-5a1d029058a6644a16d4c367c6260783c8716a8e541be6d94709ec4186611988        3688  rerun_20261116/logs/R8_looMJ_seed0.log
-bdcbc06a719ea6871a2b37f18cccae77a7702b02fdcd6d8306e3c23ed1163e94        3690  rerun_20261116/logs/R8_looMJ_seed1.log
-fbb94130f3df0b37f5783afc26e2dac59f3904fdec09a228acbef11361686060        3692  rerun_20261116/logs/R8_looMJ_seed2.log
-1eea46ce9dfb10c6e7d21e5c5dbf32afd1c46bdfe5397c9fa8714be65e7fd6b5       10609  rerun_20261116/rerun_notes.md
-6ba91848288b5e140c6662e1203648ac8f684f493400807bbf631fbf48b77203         827  rerun_20261116/sh/i1.sh
-f2933148aa5461ba5776f153736f2ee07b1427544dfec8f6229aeadf2999a013        1030  rerun_20261116/sh/i2.sh
-87d8e6f3ce694c0bd7d56c7aeaa964e11e6372dae5ded558bbee54cd331e6d82         764  rerun_20261116/sh/i3.sh
-d51a456e878bc2b52254fd8cea120c4b9da619193408c5f71e65be1f72a0bbb6        1904  rerun_20261116/sh/launch1.sh
-dddcbdcbbe94c778ecb2e27068cb5e84979205ab48591479fb38d29a913619f9        1613  rerun_20261116/sh/opt.sh
-71703a578c927e1eb729edd8cbae8211c91b6aa9cf58cbdc4b15b1c9ada9e521         565  rerun_20261116/sh/pack.sh
-987437b210a00f883fe601f2a1b63dff9567a5302c4ad5b6496326328cfecd77         518  rerun_20261116/sh/pack3.sh
-a82839e4ccec8d1dcf869dea5c2db8280f9e5593066eb8b5bdb8aa0687ef5e17        1259  rerun_20261116/sh/r1r7.sh
-5b9290238022f2efcc3660054563bba29f9ab02fd6fad818980187bb47a94291        1021  rerun_20261116/sh/r4.sh
-e4d8c6753c8a82a4e6d64deaffbafb46bafbf6ca15d61af6a43a590c2af989c7         393  rerun_20261116/sh/run_r1.sh
-5b7d0d58c55280203df0ea7310b286dae22d63602836364a1e1cf6924ba3d687         423  rerun_20261116/sh/run_r11.sh
-2e72a0160fbc9f6c5f454338f3c212a66a22a24c705ce4eb05d9513d62bee315         801  rerun_20261116/sh/run_r2.sh
-91e3fab604ddac67a2c54871f772fa03ab887ecf00ea118b18d1bba8e2c03bac         403  rerun_20261116/sh/run_r3.sh
-ec7319795bce79081ffc1ebae5cac018233fd4ce3f1382304c03696cb470f299         347  rerun_20261116/sh/run_r4.sh
-e32dfa432f11408298db352b542fe65be6bef5a2064035e0614d306e4122825f         341  rerun_20261116/sh/run_r6.sh
-fb7dec269103f98a8f1be67e649810dea3b5fb825f095fb4a2c812ee6587cb15         469  rerun_20261116/sh/run_r7.sh
-dbbb2db512b387700d0189e75e6e6e3b85904207cde40bc821041f28d4ccf282         808  rerun_20261116/sh/run_r8.sh
-d22057439d12141526b3fd2f7a2b98c15ec0e58a6fe95814e1b2ccfae7e77bc5        1008  rerun_20261116/sh/smoke.sh
-f477215807763b170512dee0cbba54086610558e8f3b2627df44b1da1f1adb5d         893  rerun_20261116/sh/src.sh
-217aaf43b4d0d8964bd5691ab3c16a153105d6e70f7b2922407ee04bd5cde1ca         479  rerun_20261116/sh/st.sh
-fc115766ddf72f91fb0a60f659361fe22b98607c961089d2603d1217be7bf6e7         477  rerun_20261116/sh/st2.sh
-5574881a29e04dce6829984e87336531a6edd7c1a6ec47570d6563c4447c3102         571  rerun_20261116/sh/st3.sh
+.gitattributes
+.gitignore
+LICENSE
+MANIFEST.txt
+README.md
+code/analysis/check_val_order.py
+code/analysis/eval_auroc.py
+code/analysis/fix_clip_auroc.py
+code/analysis/rethreshold_calibration.py
+code/figures/make_paper_figs.py
+code/figures/make_pipeline_fig.py
+code/figures/make_pipeline_fig_v2.py
+code/figures/redraw_fig1_v4.py
+code/figures/redraw_fig2.py
+code/figures/redraw_fig2_v2.py
+code/figures/redraw_fig2_v3.py
+code/figures/redraw_fig4_v2.py
+code/figures/redraw_fig4_v3.py
+code/paddle_chain/pad_common.py
+code/paddle_chain/pad_defenses_torch_port.py
+code/paddle_chain/pad_exp10_noMJ.py
+code/paddle_chain/pad_exp1_mnist.py
+code/paddle_chain/pad_exp2_train.py
+code/paddle_chain/pad_exp3_attacks.py
+code/paddle_chain/pad_exp4_at.py
+code/paddle_chain/pad_exp5678_defenses.py
+code/paddle_chain/pad_exp5678_defenses_v2.py
+code/paddle_chain/prep_dataset.py
+code/paddle_chain/prep_from_parquet.py
+code/paddle_chain/run_paddle_chain.sh
+code/pipelines/auroc_runs_r2_r3.py
+code/pipelines/genimage_test_zero_shot.py
+code/pipelines/genimage_test_zero_shot_v4.py
+code/pipelines/make_qualitative_fig.py
+code/pipelines/redraw_fig1_fig4.py
+code/pipelines/sdxl_eval_nine_models.py
+code/pipelines/sdxl_eval_nine_models_v2.py
+code/pipelines/sdxl_generate_500.py
+code/pipelines/sdxl_generate_500_v2.py
+code/pipelines/univfd_all_stages.py
+code/pipelines/univfd_stage3_fixed.py
+code/pipelines/univfd_stage3_v2.py
+code/pytorch_chain/at_main.py
+code/pytorch_chain/autoattack_resnet.py
+code/pytorch_chain/bb02_main.py
+code/pytorch_chain/bb_clip_models.py
+code/pytorch_chain/bb_main.py
+code/pytorch_chain/bb_models.py
+code/pytorch_chain/bb_train_core.py
+code/pytorch_chain/loo_eval.py
+code/pytorch_chain/lowpass_adaptive_torch.py
+code/pytorch_chain/lowpass_round.py
+code/pytorch_chain/lowpass_round_v2.py
+code/pytorch_chain/run_at_seq.sh
+code/pytorch_chain/run_bb2_seq.sh
+code/pytorch_chain/run_bb_seq.sh
+code/pytorch_chain/run_bb_seq3.sh
+code/pytorch_chain/run_full_repro.sh
+code/pytorch_chain/run_loo_seq.sh
+code/pytorch_chain/run_loo_seq2.sh
+code/pytorch_chain/run_round.py
+code/pytorch_chain/run_rounds_seq.sh
+code/pytorch_chain/spec_fp.py
+code/pytorch_chain/spec_perm_holm.py
+code/pytorch_chain/spec_resid_fixed.py
+code/pytorch_chain/train_detector.py
+code/pytorch_chain/train_detector_v2.py
+data/figures/fig1_loo_heatmap.png
+data/figures/fig2_spectral_corr.png
+data/figures/fig3_threat_model.png
+data/figures/fig4_pipeline.png
+data/figures/fig5_qualitative.png
+data/results_json_csv/auroc_result.csv
+data/results_json_csv/genimage_result.json
+data/results_json_csv/null_stats.csv
+data/results_json_csv/perm_holm_result.json
+data/results_json_csv/perm_holm_table.csv
+data/results_json_csv/resid_corr.csv
+data/results_json_csv/sdxl_result.json
+data/results_json_csv/univfd_eval.json
+rerun_20261116/R1/null_stats.csv
+rerun_20261116/R1/perm_holm_result.json
+rerun_20261116/R1/perm_holm_table.csv
+rerun_20261116/R1/radial_profiles.csv
+rerun_20261116/R1/raw_corr.csv
+rerun_20261116/R1/resid_corr.csv
+rerun_20261116/R1/resid_corr_matched150.csv
+rerun_20261116/R11/lowpass_clamp_r1/lowpass_v2.json
+rerun_20261116/R2/eval_v2_eps002_r1_real700.json
+rerun_20261116/R2/eval_v2_eps005_r1_real100.json
+rerun_20261116/R2/eval_v2_eps005_r3_real700.json
+rerun_20261116/R3/r1/lowpass_v2.json
+rerun_20261116/R3/r2/lowpass_v2.json
+rerun_20261116/R3/r3/lowpass_v2.json
+rerun_20261116/R4/defenses_torch_port.json
+rerun_20261116/R5/check_val_order.txt
+rerun_20261116/R6/result_v4.json
+rerun_20261116/R7/result_run1.json
+rerun_20261116/R7/result_run2.json
+rerun_20261116/R8/full_det42_a_config.json
+rerun_20261116/R8/full_det42_b_config.json
+rerun_20261116/R8/full_seed0_config.json
+rerun_20261116/R8/full_seed1_config.json
+rerun_20261116/R8/full_seed2_config.json
+rerun_20261116/R8/loo_Midjourney_seed0_config.json
+rerun_20261116/R8/loo_Midjourney_seed1_config.json
+rerun_20261116/R8/loo_Midjourney_seed2_config.json
+rerun_20261116/figures/fig1_loo_heatmap.png
+rerun_20261116/figures/fig2_spectral_corr.png
+rerun_20261116/figures/fig3_threat_model.png
+rerun_20261116/figures/fig4_pipeline.png
+rerun_20261116/figures/fig5_qualitative.png
+rerun_20261116/logs/R1.log
+rerun_20261116/logs/R11_lowpass_clamp_r1.log
+rerun_20261116/logs/R1_smoketest.log
+rerun_20261116/logs/R2_a.log
+rerun_20261116/logs/R2_b.log
+rerun_20261116/logs/R2_c.log
+rerun_20261116/logs/R3_r1.log
+rerun_20261116/logs/R3_r2.log
+rerun_20261116/logs/R3_r3.log
+rerun_20261116/logs/R4.log
+rerun_20261116/logs/R6.log
+rerun_20261116/logs/R7_run1.log
+rerun_20261116/logs/R7_run2.log
+rerun_20261116/logs/R8_full_det42_a.log
+rerun_20261116/logs/R8_full_det42_b.log
+rerun_20261116/logs/R8_full_seed0.log
+rerun_20261116/logs/R8_full_seed1.log
+rerun_20261116/logs/R8_full_seed2.log
+rerun_20261116/logs/R8_looMJ_seed0.log
+rerun_20261116/logs/R8_looMJ_seed1.log
+rerun_20261116/logs/R8_looMJ_seed2.log
+rerun_20261116/rerun_notes.md
+rerun_20261116/sh/i1.sh
+rerun_20261116/sh/i2.sh
+rerun_20261116/sh/i3.sh
+rerun_20261116/sh/launch1.sh
+rerun_20261116/sh/opt.sh
+rerun_20261116/sh/pack.sh
+rerun_20261116/sh/pack3.sh
+rerun_20261116/sh/r1r7.sh
+rerun_20261116/sh/r4.sh
+rerun_20261116/sh/run_r1.sh
+rerun_20261116/sh/run_r11.sh
+rerun_20261116/sh/run_r2.sh
+rerun_20261116/sh/run_r3.sh
+rerun_20261116/sh/run_r4.sh
+rerun_20261116/sh/run_r6.sh
+rerun_20261116/sh/run_r7.sh
+rerun_20261116/sh/run_r8.sh
+rerun_20261116/sh/smoke.sh
+rerun_20261116/sh/src.sh
+rerun_20261116/sh/st.sh
+rerun_20261116/sh/st2.sh
+rerun_20261116/sh/st3.sh
+updates_20261127/e3_e4_e5_protocol/E4/E4_at01/cfg_at_resnet18_holdout_ADM_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_at01/cfg_at_resnet18_holdout_Midjourney_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_at01/cfg_at_resnet18_holdout_VQDM_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_at01/cfg_at_resnet18_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_at01/cfg_at_resnet18_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_at01/cfg_at_resnet18_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_auroc_audit/result.csv
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_full_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_full_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_full_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_ADM_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_ADM_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_ADM_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_BigGAN_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_BigGAN_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_BigGAN_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_GLIDE_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_GLIDE_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_GLIDE_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_Midjourney_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_Midjourney_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_Midjourney_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_SD15_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_SD15_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_SD15_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_VQDM_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_VQDM_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_VQDM_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_Wukong_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_Wukong_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb01/cfg_efficientnet_b0_holdout_Wukong_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_full_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_full_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_full_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_ADM_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_BigGAN_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_GLIDE_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_Midjourney_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_Midjourney_r2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_Midjourney_r3.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_Midjourney_r4.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_Midjourney_r5.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_SD15_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_VQDM_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_bb02/cfg_clip_vitb16_holdout_Wukong_r1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R2/eval_v2_eps002_r1_real700.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R2/eval_v2_eps005_r1_real100.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R2/eval_v2_eps005_r3_real700.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R3/r1/lowpass_v2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R3/r2/lowpass_v2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R3/r3/lowpass_v2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R4/defenses_torch_port.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R6/result_v4.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R7/result_run1.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/R7/result_run2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_eval/sdxl/result_v2.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_ADM_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_ADM_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_BigGAN_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_BigGAN_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_GLIDE_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_GLIDE_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_GLIDE_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_Midjourney_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_Midjourney_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_Midjourney_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_SD15_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_SD15_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_SD15_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_VQDM_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_VQDM_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_VQDM_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_Wukong_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_Wukong_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_loo_01/detector_Wukong_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E4/E4_round_01/detector_config.json
+updates_20261127/e3_e4_e5_protocol/E4/sdxl_result_E3.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_auroc_audit/result_159.csv
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R2/eval_v2_eps002_r1_real700.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R2/eval_v2_eps005_r1_real100.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R2/eval_v2_eps005_r3_real700.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R3/r1/lowpass_v2.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R3/r2/lowpass_v2.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R3/r3/lowpass_v2.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R4/defenses_torch_port.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R6/result_v4.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R7/result_run1.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/R7/result_run2.json
+updates_20261127/e3_e4_e5_protocol/E5/E5_eval/sdxl/result_v2.json
+updates_20261127/e3_e4_e5_protocol/E5/at01/cfg_at_resnet18_holdout_ADM_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/at01/cfg_at_resnet18_holdout_Midjourney_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/at01/cfg_at_resnet18_holdout_VQDM_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/at01/cfg_at_resnet18_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/at01/cfg_at_resnet18_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/at01/cfg_at_resnet18_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/auroc_audit/result.csv
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_full_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_full_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_full_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_ADM_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_ADM_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_ADM_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_BigGAN_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_BigGAN_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_BigGAN_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_GLIDE_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_GLIDE_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_GLIDE_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_Midjourney_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_Midjourney_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_Midjourney_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_SD15_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_SD15_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_SD15_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_VQDM_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_VQDM_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_VQDM_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_Wukong_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_Wukong_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb01/cfg_efficientnet_b0_holdout_Wukong_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_full_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_full_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_full_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_ADM_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_BigGAN_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_GLIDE_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_Midjourney_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_Midjourney_r2.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_Midjourney_r3.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_Midjourney_r4.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_Midjourney_r5.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_SD15_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_VQDM_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/bb02/cfg_clip_vitb16_holdout_Wukong_r1.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_ADM_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_ADM_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_BigGAN_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_BigGAN_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_GLIDE_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_GLIDE_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_GLIDE_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_Midjourney_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_Midjourney_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_Midjourney_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_SD15_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_SD15_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_SD15_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_VQDM_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_VQDM_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_VQDM_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_Wukong_r1_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_Wukong_r2_config.json
+updates_20261127/e3_e4_e5_protocol/E5/loo_01/detector_Wukong_r3_config.json
+updates_20261127/e3_e4_e5_protocol/E5/round_01/detector_config.json
+updates_20261127/e3_e4_e5_protocol/E5/round_02/detector_config.json
+updates_20261127/e3_e4_e5_protocol/E5/round_03/detector_config.json
+updates_20261127/e3_e4_e5_protocol/audit_paper_numbers.py
+updates_20261127/e3_e4_e5_protocol/calc_paper_e345_all.py
+updates_20261127/e3_e4_e5_protocol/compare_e345.py
+updates_20261127/e3_e4_e5_protocol/paper_e345_master_stats.json
+updates_20261127/figures_scripts/fig1_loo_heatmap.png
+updates_20261127/figures_scripts/fig3_threat_model.png
+updates_20261127/figures_scripts/fig4_pipeline.png
+updates_20261127/figures_scripts/redraw_fig5_v3.py
+updates_20261127/figures_scripts/redraw_figs_e345.py
+updates_20261127/flux_non_sd_probe/flux_eval_v1.py
+updates_20261127/flux_non_sd_probe/flux_eval_v2.py
+updates_20261127/flux_non_sd_probe/flux_gen500_v1.py
+updates_20261127/flux_non_sd_probe/flux_gen500_v2.py
+updates_20261127/flux_non_sd_probe/flux_schnell_eval.json
+updates_20261127/flux_non_sd_probe/flux_schnell_eval_e4.json
+updates_20261127/flux_non_sd_probe/flux_schnell_eval_e5.json
+updates_20261127/flux_non_sd_probe/flux_schnell_eval_univfd.json
+updates_20261127/flux_non_sd_probe/flux_schnell_v1_eval.json
+updates_20261127/flux_non_sd_probe/flux_schnell_v1_eval_e4.json
+updates_20261127/flux_non_sd_probe/flux_schnell_v1_eval_e5.json
+updates_20261127/flux_non_sd_probe/flux_schnell_v1_eval_univfd.json
+updates_20261127/flux_non_sd_probe/prompts_500.json
+updates_20261127/flux_non_sd_probe/prompts_500_v1_sdxl_aligned.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_0/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_1/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/ADM/seed_2/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_0/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_1/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/BigGAN/seed_2/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_0/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_1/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/GLIDE/seed_2/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_0/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_1/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Midjourney/seed_2/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_0/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_1/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/SD15/seed_2/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_0/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_1/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/VQDM/seed_2/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_0/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_1/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/at/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/at/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/at/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/at/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/at/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/at/train_log.csv
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/clean_dup/config.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/clean_dup/eval_frozen/metrics.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/clean_dup/final_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/clean_dup/init_sha256.txt
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/clean_dup/resource.json
+updates_20261127/pixel_at_42runs/AT_PIXEL_V1/Wukong/seed_2/clean_dup/train_log.csv
+updates_20261127/pixel_at_42runs/summary_table.md
+updates_20261127/pixel_at_42runs/train_at_pixel_v1.py

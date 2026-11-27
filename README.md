@@ -1,23 +1,29 @@
-# Evaluation Illusions in AI-Generated Image Detection
+# Evaluation Protocol Sensitivity in AI-Generated Image Detection
 
-**Paper title:** Evaluation Illusions in AI-Generated Image Detection: Threat-Model Framing, Aggregated Metrics, and Run-to-Run Variance
+**Paper title:** *Evaluation Protocol Sensitivity in AI-Generated Image Detection: Threat-Model Framing, Aggregation Granularity, and Replication Audit*  
+**Authors:** Yuhan Dong (ORCID: 0009-0004-9673-1429) and Changhao Li (Corresponding Author)  
+**Affiliation:** School of Information Network Security, Xinjiang University of Political Science and Law, Tumxuk, Xinjiang, China  
 
-This repository is the reproducibility package for the paper. It contains training, attack, evaluation, and figure-generation scripts; the original quantitative outputs packaged with the artifact; and the logs and result tables from the 16 November 2026 (UTC+8) reruns (R1–R7, plus partial optional runs).
+This repository is the reproducibility package for the paper. It contains training, attack, evaluation, and figure-generation scripts; the baseline E3 execution (`data/` and `rerun_20261116/`); and the **2026-11-27 manuscript release package (`updates_20261127/`)** covering the full three-execution replications (E3–E5), the out-of-sample non-Stable-Diffusion FLUX.1-schnell probes (`v1` & `v2`), the 42-run paired pixel-space PGD-AT study (`AT_PIXEL_V1`), and updated publication figures.
 
-Trained model weights are not included in this repository. They can be reproduced from the scripts and public data, or requested from the authors. A public release of the checkpoints is planned.
+Trained model weights and raw image datasets are not hosted in this repository. Weights can be reproduced from the scripts and public datasets or requested from the authors for academic research.
 
 ## Contents
 
 | Path | Description |
 |---|---|
+| `updates_20261127/e3_e4_e5_protocol/` | Recomputed E3–E5 master JSON (`paper_e345_master_stats.json`), E4 & E5 159-row AUROC tables, evaluation JSONs, and aggregation scripts |
+| `updates_20261127/flux_non_sd_probe/` | Non-SD Rectified Flow DiT **FLUX.1-schnell** prompts (`v1` & `v2`), zero-shot JSON results across E3–E5 + UnivFD, and sanitized generation/eval scripts |
+| `updates_20261127/pixel_at_42runs/` | Canonical pixel-space PGD-AT (`AT_PIXEL_V1`, $\varepsilon=8/255$, 7 LOO splits $\times$ 3 distinct seeds, 42 runs): script, logs, SHA-256 hashes, and `summary_table.md` |
+| `updates_20261127/figures_scripts/` | Updated 300-DPI paper figures (`fig1_loo_heatmap.png`, `fig3_threat_model.png`, `fig4_pipeline.png`) and plotting scripts |
 | `code/pytorch_chain/` | PyTorch training, attacks, LOO evaluation, spectral fingerprint, and low-pass sweeps |
-| `code/paddle_chain/` | PaddlePaddle 2.6.2 chain (MNIST calibration, detector training, attacks, PGD-AT, four defenses, data prep) and the PyTorch port of the four-defense evaluation |
+| `code/paddle_chain/` | PaddlePaddle 2.6.2 chain and the PyTorch port of the four-defense evaluation |
 | `code/pipelines/` | UnivFD, SDXL, and GenImage test-set probes |
 | `code/analysis/` | Threshold-free AUROC audit and the R5/R7 calibration scripts |
-| `code/figures/` | Paper figure generation |
-| `data/results_json_csv/` | Original (pre-rerun) quantitative outputs |
-| `data/figures/` | Figures as packaged in the original artifact |
-| `rerun_20261116/` | Result tables, logs, sanitized launch scripts, updated figures, and notes from the 2026-11-16 reruns |
+| `code/figures/` | Initial figure generation scripts |
+| `data/results_json_csv/` | E3 baseline quantitative outputs and 159-row AUROC audit |
+| `data/figures/` | Initial artifact renders |
+| `rerun_20261116/` | Result tables, logs, sanitized launch scripts, updated figures, and notes from E3 (2026-11-16) |
 
 Corrected scripts added for those reruns live **alongside** the originals under `code/` (for example `spec_resid_fixed.py`, `univfd_stage3_v2.py`, `lowpass_round_v2.py`, `pad_defenses_torch_port.py`). Original filenames were not overwritten.
 

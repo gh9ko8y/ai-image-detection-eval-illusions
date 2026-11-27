@@ -1,0 +1,8 @@
+{
+ "method": "clean_dup",
+ "updates": 1221,
+ "elapsed_sec": 199.0,
+ "max_mem_alloc_bytes": 3183763456,
+ "smoke": false,
+ "deterministic_mode": true
+}

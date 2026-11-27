@@ -1,0 +1,7 @@
+{
+ "acc_fake": 97.6,
+ "acc_real": 92.83,
+ "acc_balanced": 95.21,
+ "auroc": 99.01,
+ "tpr1": 82.6
+}

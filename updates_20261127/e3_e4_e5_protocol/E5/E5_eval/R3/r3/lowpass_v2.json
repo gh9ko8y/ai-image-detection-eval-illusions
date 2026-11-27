@@ -1,0 +1,147 @@
+{
+ "ckpt": "/runs/round_03/detector.pth",
+ "n_eval": 7000,
+ "ratio": 0.15,
+ "steps": 10,
+ "alpha": "eps/steps, uniform random start",
+ "clamp": false,
+ "retained_frac": 0.08681441326530612,
+ "clean_bare": {
+  "ADM": 98.4,
+  "BigGAN": 98.8,
+  "GLIDE": 98.6,
+  "Midjourney": 79.4,
+  "SD15": 92.80000000000001,
+  "VQDM": 91.2,
+  "Wukong": 88.6,
+  "Real": 89.42857142857143,
+  "fake_all": 92.54285714285714,
+  "overall": 90.98571428571428
+ },
+ "clean_filtered": {
+  "ADM": 93.8,
+  "BigGAN": 99.0,
+  "GLIDE": 98.8,
+  "Midjourney": 96.2,
+  "SD15": 98.6,
+  "VQDM": 99.4,
+  "Wukong": 97.39999999999999,
+  "Real": 5.171428571428571,
+  "fake_all": 97.6,
+  "overall": 51.38571428571429
+ },
+ "eps=0.020": {
+  "bare_attacked": {
+   "ADM": 0.6,
+   "BigGAN": 0.0,
+   "GLIDE": 0.8,
+   "Midjourney": 1.0,
+   "SD15": 4.8,
+   "VQDM": 1.0,
+   "Wukong": 7.199999999999999,
+   "Real": 0.6285714285714286,
+   "fake_all": 2.1999999999999997,
+   "overall": 1.4142857142857144
+  },
+  "transfer": {
+   "ADM": 91.8,
+   "BigGAN": 96.8,
+   "GLIDE": 95.39999999999999,
+   "Midjourney": 93.2,
+   "SD15": 98.0,
+   "VQDM": 96.6,
+   "Wukong": 96.39999999999999,
+   "Real": 3.4571428571428573,
+   "fake_all": 95.45714285714286,
+   "overall": 49.457142857142856
+  },
+  "adaptive": {
+   "ADM": 5.4,
+   "BigGAN": 18.2,
+   "GLIDE": 15.0,
+   "Midjourney": 13.200000000000001,
+   "SD15": 24.4,
+   "VQDM": 27.800000000000004,
+   "Wukong": 25.6,
+   "Real": 0.0,
+   "fake_all": 18.514285714285712,
+   "overall": 9.257142857142856
+  }
+ },
+ "eps=0.050": {
+  "bare_attacked": {
+   "ADM": 0.0,
+   "BigGAN": 0.0,
+   "GLIDE": 0.0,
+   "Midjourney": 0.2,
+   "SD15": 0.6,
+   "VQDM": 0.0,
+   "Wukong": 0.8,
+   "Real": 0.0,
+   "fake_all": 0.2285714285714286,
+   "overall": 0.1142857142857143
+  },
+  "transfer": {
+   "ADM": 87.4,
+   "BigGAN": 94.8,
+   "GLIDE": 92.2,
+   "Midjourney": 90.4,
+   "SD15": 95.39999999999999,
+   "VQDM": 94.19999999999999,
+   "Wukong": 94.19999999999999,
+   "Real": 2.4285714285714284,
+   "fake_all": 92.65714285714286,
+   "overall": 47.542857142857144
+  },
+  "adaptive": {
+   "ADM": 0.0,
+   "BigGAN": 0.2,
+   "GLIDE": 0.8,
+   "Midjourney": 0.4,
+   "SD15": 0.8,
+   "VQDM": 1.2,
+   "Wukong": 2.0,
+   "Real": 0.0,
+   "fake_all": 0.7714285714285715,
+   "overall": 0.38571428571428573
+  }
+ },
+ "eps=0.100": {
+  "bare_attacked": {
+   "ADM": 0.0,
+   "BigGAN": 0.0,
+   "GLIDE": 0.0,
+   "Midjourney": 0.0,
+   "SD15": 0.0,
+   "VQDM": 0.0,
+   "Wukong": 0.0,
+   "Real": 0.0,
+   "fake_all": 0.0,
+   "overall": 0.0
+  },
+  "transfer": {
+   "ADM": 83.8,
+   "BigGAN": 94.6,
+   "GLIDE": 88.6,
+   "Midjourney": 86.0,
+   "SD15": 92.2,
+   "VQDM": 93.8,
+   "Wukong": 90.0,
+   "Real": 1.342857142857143,
+   "fake_all": 89.85714285714286,
+   "overall": 45.6
+  },
+  "adaptive": {
+   "ADM": 0.0,
+   "BigGAN": 0.0,
+   "GLIDE": 0.2,
+   "Midjourney": 0.2,
+   "SD15": 0.2,
+   "VQDM": 0.0,
+   "Wukong": 0.6,
+   "Real": 0.0,
+   "fake_all": 0.17142857142857143,
+   "overall": 0.08571428571428572
+  }
+ }
+}

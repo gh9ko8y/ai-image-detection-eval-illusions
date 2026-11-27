@@ -1,0 +1,71 @@
+{
+ "resnet": {
+  "r1": {
+   "acc_fake": 91.2,
+   "acc_real": 85.83,
+   "acc_balanced": 88.51,
+   "auroc": 96.29,
+   "tpr1": 70.4
+  },
+  "r2": {
+   "acc_fake": 91.2,
+   "acc_real": 90.63,
+   "acc_balanced": 90.91,
+   "auroc": 96.97,
+   "tpr1": 72.8
+  },
+  "r3": {
+   "acc_fake": 90.4,
+   "acc_real": 89.4,
+   "acc_balanced": 89.9,
+   "auroc": 96.64,
+   "tpr1": 68.2
+  }
+ },
+ "effnet": {
+  "r1": {
+   "acc_fake": 96.8,
+   "acc_real": 94.94,
+   "acc_balanced": 95.87,
+   "auroc": 99.46,
+   "tpr1": 89.2
+  },
+  "r2": {
+   "acc_fake": 97.2,
+   "acc_real": 94.8,
+   "acc_balanced": 96.0,
+   "auroc": 99.48,
+   "tpr1": 88.8
+  },
+  "r3": {
+   "acc_fake": 97.2,
+   "acc_real": 94.2,
+   "acc_balanced": 95.7,
+   "auroc": 99.22,
+   "tpr1": 89.4
+  }
+ },
+ "clip": {
+  "r1": {
+   "acc_fake": 95.4,
+   "acc_real": 99.66,
+   "acc_balanced": 97.53,
+   "auroc": 99.87,
+   "tpr1": 97.2
+  },
+  "r2": {
+   "acc_fake": 99.0,
+   "acc_real": 98.57,
+   "acc_balanced": 98.79,
+   "auroc": 99.93,
+   "tpr1": 98.2
+  },
+  "r3": {
+   "acc_fake": 96.0,
+   "acc_real": 98.09,
+   "acc_balanced": 97.04,
+   "auroc": 99.66,
+   "tpr1": 94.0
+  }
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "note": "Paddle exp2 detector weights ported to torchvision ResNet-18 (convert_ckpt mapping); eps in ImageNet-normalized space; PGD-10 alpha=2.5eps/10, no random start; EOT sigma=0.02 k=10",
+ "n_eval": 7000,
+ "clean_bare": 90.44285714285714,
+ "randomization": {
+  "all": {
+   "n": 7000,
+   "no_attack": 88.65714285714286,
+   "eps=0.02": {
+    "transfer": 0.32857142857142857,
+    "naive_whitebox": 0.32857142857142857,
+    "adaptive": 0.2857142857142857
+   },
+   "eps=0.05": {
+    "transfer": 0.02857142857142857,
+    "naive_whitebox": 0.02857142857142857,
+    "adaptive": 0.02857142857142857
+   },
+   "eps=0.10": {
+    "transfer": 0.0,
+    "naive_whitebox": 0.0,
+    "adaptive": 0.0
+   }
+  }
+ },
+ "bit_reduce_0.2": {
+  "all": {
+   "n": 7000,
+   "no_attack": 76.97142857142858,
+   "eps=0.02": {
+    "transfer": 9.442857142857143,
+    "naive_whitebox": 76.97142857142858,
+    "adaptive": 0.6428571428571429
+   },
+   "eps=0.05": {
+    "transfer": 0.12857142857142856,
+    "naive_whitebox": 76.97142857142858,
+    "adaptive": 0.02857142857142857
+   },
+   "eps=0.10": {
+    "transfer": 0.0,
+    "naive_whitebox": 76.97142857142858,
+    "adaptive": 0.0
+   }
+  }
+ },
+ "jpeg_q50": {
+  "all": {
+   "n": 7000,
+   "no_attack": 75.3,
+   "eps=0.02": {
+    "transfer": 54.15714285714286,
+    "naive_whitebox": 75.3,
+    "adaptive": 18.485714285714284
+   },
+   "eps=0.05": {
+    "transfer": 43.58571428571429,
+    "naive_whitebox": 75.3,
+    "adaptive": 3.0428571428571427
+   },
+   "eps=0.10": {
+    "transfer": 18.557142857142857,
+    "naive_whitebox": 75.3,
+    "adaptive": 0.14285714285714285
+   }
+  },
+  "first2000": {
+   "n": 2000,
+   "no_attack": 78.3,
+   "eps=0.02": {
+    "transfer": 54.0,
+    "naive_whitebox": 78.3,
+    "adaptive": 18.2
+   },
+   "eps=0.05": {
+    "transfer": 42.7,
+    "naive_whitebox": 78.3,
+    "adaptive": 2.8
+   },
+   "eps=0.10": {
+    "transfer": 18.05,
+    "naive_whitebox": 78.3,
+    "adaptive": 0.2
+   }
+  }
+ },
+ "lowpass_0.15": {
+  "all": {
+   "n": 7000,
+   "no_attack": 51.214285714285715,
+   "eps=0.02": {
+    "transfer": 48.52857142857143,
+    "naive_whitebox": 3.242857142857143,
+    "adaptive": 3.242857142857143
+   },
+   "eps=0.05": {
+    "transfer": 46.05714285714286,
+    "naive_whitebox": 0.18571428571428572,
+    "adaptive": 0.18571428571428572
+   },
+   "eps=0.10": {
+    "transfer": 45.58571428571429,
+    "naive_whitebox": 0.014285714285714285,
+    "adaptive": 0.014285714285714285
+   }
+  }
+ }
+}

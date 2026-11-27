@@ -1,0 +1,9 @@
+{
+ "backbone": "clip_vitb16",
+ "exclude": null,
+ "run": 1,
+ "epochs": 3,
+ "bs": 32,
+ "lr": 1e-05,
+ "seed": 42
+}

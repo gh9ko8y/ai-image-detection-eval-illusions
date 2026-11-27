@@ -1,0 +1,47 @@
+{
+ "run_dir": "/at_pixel_v1/AT_PIXEL_V1/GLIDE/seed_1/clean_dup",
+ "final_sha256": "21c9fa95dfcce6fc9fca28b9925d7a4af50b69dea97a0dfd3254f5691e7a933d",
+ "code_sha256": "051ae9ca40f38590910fb5ceecd626a541a94e240a2082f22a217915f2273b84",
+ "threshold_rule": "s>=0.5 -> Fake, tie->Fake",
+ "real_fpr": 0.028857142857142856,
+ "overall_acc": 0.701,
+ "seen_macro_tpr": 0.43085714285714294,
+ "per_generator": {
+  "ADM": {
+   "n": 500,
+   "tpr": 0.924
+  },
+  "BigGAN": {
+   "n": 500,
+   "tpr": 0.606
+  },
+  "GLIDE": {
+   "n": 500,
+   "tpr": 0.376
+  },
+  "Midjourney": {
+   "n": 500,
+   "tpr": 0.104
+  },
+  "SD15": {
+   "n": 500,
+   "tpr": 0.318
+  },
+  "VQDM": {
+   "n": 500,
+   "tpr": 0.224
+  },
+  "Wukong": {
+   "n": 500,
+   "tpr": 0.464
+  }
+ },
+ "confusion": {
+  "TP": 1508,
+  "FP": 101,
+  "TN": 3399,
+  "FN": 1992
+ },
+ "auroc_global": 0.8736257959183673,
+ "auroc_valid": 1
+}

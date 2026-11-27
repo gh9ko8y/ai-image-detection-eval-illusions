@@ -1,0 +1,47 @@
+{
+ "run_dir": "/at_pixel_v1/AT_PIXEL_V1/SD15/seed_0/at",
+ "final_sha256": "c52fcb644e33926a9cd8f85c1954393a1e80f09622c0b4138960403640e22d09",
+ "code_sha256": "051ae9ca40f38590910fb5ceecd626a541a94e240a2082f22a217915f2273b84",
+ "threshold_rule": "s>=0.5 -> Fake, tie->Fake",
+ "real_fpr": 0.0,
+ "overall_acc": 0.5,
+ "seen_macro_tpr": 0.0,
+ "per_generator": {
+  "ADM": {
+   "n": 500,
+   "tpr": 0.0
+  },
+  "BigGAN": {
+   "n": 500,
+   "tpr": 0.0
+  },
+  "GLIDE": {
+   "n": 500,
+   "tpr": 0.0
+  },
+  "Midjourney": {
+   "n": 500,
+   "tpr": 0.0
+  },
+  "SD15": {
+   "n": 500,
+   "tpr": 0.0
+  },
+  "VQDM": {
+   "n": 500,
+   "tpr": 0.0
+  },
+  "Wukong": {
+   "n": 500,
+   "tpr": 0.0
+  }
+ },
+ "confusion": {
+  "TP": 0,
+  "FP": 0,
+  "TN": 3500,
+  "FN": 3500
+ },
+ "auroc_global": 0.6100874285714286,
+ "auroc_valid": 1
+}

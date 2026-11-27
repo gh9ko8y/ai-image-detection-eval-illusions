@@ -1,0 +1,19 @@
+{
+ "spec": "SPEC-V1.1 2026-11-18",
+ "code_sha256": "1c9bad5ee870afaedb378d08e537e9562ec26fb916b25ced409f7f06bfdd88a6",
+ "prep": "/data_npy",
+ "exclude": "Wukong",
+ "seed": 2,
+ "method": "clean_dup",
+ "epochs": 3,
+ "bs": 64,
+ "lr": 0.0001,
+ "eps": 0.03137254901960784,
+ "alpha": 0.00784313725490196,
+ "steps": 5,
+ "smoke_batches": 0,
+ "env": {
+  "torch": "2.14.1+cu130",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER"
+ }
+}
